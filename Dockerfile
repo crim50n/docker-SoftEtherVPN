@@ -1,7 +1,7 @@
 FROM centos:latest
 MAINTAINER Dmitry Svetly "crims0n@ya.ru"
 
-ENV VERSION 4.22.9634
+ENV VERSION 4.25.9656
 
 RUN yum install -y https://raw.githubusercontent.com/crim50n/docker-SoftEtherVPN/master/softethervpn-4.25.9656-1.el7.centos.x86_64.rpm
 
